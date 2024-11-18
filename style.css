@@ -1,1 +1,45 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+#header{
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shoe{
+    color: green;
+}
+.tree{
+    color: brown;
+}
+.navbar nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero1 .navbar nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    
+}
+.navbar h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.navbar nav ul{
+    margin-right: 20px;
+}
+.navbar nav ul a{
+    text-decoration: none;
+    color: black;
+}
+ 
