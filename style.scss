@@ -1,223 +1,356 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
 }
-#header
-{ 
-     div{ 
-        p{
-    height: 60px;
-    background-color: black;
-    color: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-}
-}
-.shoe{
-    color: green;
-}
-.tree{
-    color: brown;
-}
-.navbar 
-{nav
-    {
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-}
-.navbar
-{ nav 
-    {ul
-        {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    gap: 25px;
+
+#header {
+    div {
+        p {
+            height: 60px;
+            background-color: black;
+            color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
-.navbar
-{ h1
-    {
+
+.shoe {
+    color: green;
+}
+
+.tree {
+    color: brown;
+}
+
+.navbar {
+    h1 {
         text-shadow: 3px 3px gray;
-    margin-left: 20px;
-    font-size: 40px;
-}
-}
-.navbar 
-{nav 
-    {ul 
-        {a
-            {
-    text-decoration: none;
-    color: black;
-    font-size: larger;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    nav {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            gap: 25px;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: larger;
             }
         }
     }
 }
-.icons{
+
+.icons {
     margin-right: 30px;
     display: flex;
     gap: 20px;
 }
-#hero1{
+
+#hero1 {
     /* background: url(https://www.shoetree.io/collections/all-products) no-repeat center center/cover; */
-    background: url(https://asset.swarovski.com/images/c_crop,g_xy_center,w_12998,h_4401,x_7798,y_2641/dpr_1.0,f_auto,q_auto,c_lfill,w_760,h_257/swa-cms/FW24_LOOKBOOKSS24_BLACK-FRIDAY_MIRROR_EXT/.jpg)no-repeat center center/cover;
+    background: url(https://asset.swarovski.com/images/c_crop,g_xy_center,w_9260,h_5209,x_5000,y_3597/dpr_1.0,f_auto,q_auto,c_lfill,w_1449,h_830/swa-cms/LOOKBOOKSS24_LOOK2-1_OF_GL_72DPI_RGB_MIRROR/.jpg)no-repeat center center/cover;
     height: 100vh;
-    
+
+    a {
+        text-decoration: none;
+    }
+a:hover{
+    color: white;
 }
-.main1{
-    h1{
+    .btn:hover {
+        background-color: black;
+    }
+}
+
+.main1 {
+    h1 {
         font-size: 50px;
     }
 }
-.btn{
+
+.btn {
     padding: 5px 60px 5px 60px;
     background-color: transparent;
 }
-.main1{
+
+.main1 {
     padding-top: 200px;
     padding-left: 50px;
 }
-.divbutton{
+
+.divbutton {
     padding-left: 50px;
 }
-#hero2{  height: 200vh;
+
+#hero2 {
+    height: 200vh;
     background-size: 100% 100%;
-    background-color: #808080;
-    .main2{ height: 60vh;
-        padding-top: 80px;
+    background-color: rgb(240, 232, 232);
+
+    .main2 {
+        height: 60vh;
         display: flex;
         justify-content: center;
+        align-items: center;
 
-        h{
-            font-size: 30px;
-            font-weight: 50px;
+        h1 {
+            font-size: 50px;
+            font-weight: 530;
             font-family: Arial, Helvetica, sans-serif;
-        }
-        
-    }
-}
-
-#hero2{
-    .main2{
-        p{
-                font-size: larger;
+            span{
+                 font-size: 18px;
+                 font-weight: 400;
+            }
         }
     }
 }
 
-.highlights{
-    h{  margin-left: 130px;
+#hero2 {
+    .main2 {
+        p {
+            font-size: larger;
+        }
+    }
+}
+
+.highlights {
+    h1{
+        margin-left: 130px;
         font-size: xx-large;
     }
 }
-.slide-img1{
+
+.slide-img1 {
     display: flex;
     gap: 20px;
     overflow: scroll;
     margin-left: 130px;
 }
-.holiday{
+
+.holiday {
     font-size: 30px;
     font-weight: 500;
 }
-.para-below{
+
+.para-below {
     padding-left: 130px;
-    padding-top: 100px; p{
-    font-size: larger;
-    font-weight: 300;
+    padding-top: 100px;
+
+    p {
+        font-size: larger;
+        font-weight: 300;
+    }
 }
-}
-.spotlight{
+
+.spotlight {
     font-size: 30px;
     font-weight: 700;
 }
-.discover{
+
+.discover {
     font-size: larger;
     font-weight: 300px;
 }
-.main3{
+
+.main3 {
     display: flex;
+    align-items: center;
     flex-direction: row;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #header{
-    height: 40px;
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.shoe{
-    color: green;
-}
-.tree{
-    color: brown;
-}
-.navbar nav{
-    height: 80px;
-    display: flex;
     justify-content: space-between;
+}
+
+.div_spotlight {
+    padding: 50px;
+}
+
+.style_stories {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.explore {
+    font-size: larger;
+    font-weight: 300px;
+}
+
+.main4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.div_stories {
+    padding: 50px;
+}
+
+.inside_aurora {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.learn {
+    font-size: larger;
+    font-weight: 300px;
+}
+
+.main5 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div_inside {
+    padding: 140px;
+}
+
+#hero6 {
+    height: 143vh;
+    background-color: rgb(219, 211, 211);
+}
+
+.main6 {
+    h1 {
+        padding-top: 100px;
+        font-size: 50px;
+        font-weight: 100;
+    }
+
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.customer {
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service {
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gift {
+    font-size: 20px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pd-services {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+    i {
+        font-size: 40px;
+    }
+}
+
+.join {
+    height: 60vh;
+    margin-top: 70px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.club {
+    color: whitesmoke;
+    padding: 8px 60px 8px 60px;
+    background-color: black;
+}
+
+.club:hover {
+    background-color: gray;
+}
+
+.footer {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+
+    a {
+        text-decoration: none;
+        color: rgb(172, 167, 167);
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+#main_footer {
+    background-color: black;
+    color: white;
+    height: 120vh;
+}
+hr{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.last_foot {
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
-#hero1 .navbar nav ul{
+.last_foot{
+    div{
+        h1{
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}
+
+//------------------------------------------------new in-------------------------------------------------->
+
+// <-------------------------------------------section7 start-------------------------------------------->
+
+#hero7{
+    background: url(https://images.pexels.com/photos/1229414/pexels-photo-1229414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)no-repeat center center/cover;
+    height: 100vh;
     display: flex;
-    text-decoration: none;
-    list-style: none;
-    gap: 50px;
-    
+    justify-content: center;
+    align-items: center;
+    .main7{ color: black;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: xx-large;
+        }
+    }
 }
-.navbar h1{
-    margin-left: 20px;
-    font-size: 40px;
-}
-.navbar nav ul{
-    margin-right: 20px;
-}
-.navbar nav ul a{
-    text-decoration: none;
-    color: black;
-}
-  */
+// <---------------------------------------------section 7 end--------------------------------------------->
+// <--------------------------------------------section8 start--------------------------------------------->
+ #hero8{
+        height: 500vh;
+ .main8{
+    display: grid;
+    //  grid-template-columns: auto auto auto auto; 
+     grid-template-columns: repeat(4,1fr);
+    div{
+            
+            border: 1px solid black;
+        }
+    }
+ }
+
