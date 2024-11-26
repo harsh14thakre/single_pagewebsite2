@@ -344,6 +344,7 @@ hr{
  #hero8{
         height: 500vh;
  .main8{
+    margin: 0px;
     display: grid;
     //  grid-template-columns: auto auto auto auto; 
      grid-template-columns: repeat(4,1fr);
@@ -352,5 +353,20 @@ hr{
             border: 1px solid black;
         }
     }
+    .sort{ height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(214, 208, 208);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ }
+   
+ .box{ 
+    height: 500px;
+    gap: 10px;
+    background-color: rgb(255, 254, 254);
+    margin: 1px;
  }
 
