@@ -5,6 +5,33 @@
   scroll-behavior: smooth;
 }
 
+#header .icons {
+  margin-right: 30px;
+  display: flex;
+  gap: 20px;
+}
+#header .navbar h1 {
+  text-shadow: 3px 3px gray;
+  margin-left: 20px;
+  font-size: 40px;
+}
+#header .navbar nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 25px;
+}
+#header .navbar nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
 #header div p {
   height: 60px;
   background-color: black;
@@ -12,43 +39,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.shoe {
-  color: green;
-}
-
-.tree {
-  color: brown;
-}
-
-.navbar h1 {
-  text-shadow: 3px 3px gray;
-  margin-left: 20px;
-  font-size: 40px;
-}
-.navbar nav {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navbar nav ul {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  gap: 25px;
-}
-.navbar nav ul a {
-  text-decoration: none;
-  color: black;
-  font-size: larger;
-}
-
-.icons {
-  margin-right: 30px;
-  display: flex;
-  gap: 20px;
 }
 
 #hero1 {
@@ -314,6 +304,7 @@ hr {
 }
 
 #hero8 {
+  border: 3px;
   height: 500vh;
 }
 #hero8 .main8 {
@@ -324,7 +315,8 @@ hr {
 #hero8 .main8 div {
   border: 1px solid black;
 }
-#hero8 .sort {
+
+.sort {
   height: 7vh;
   display: flex;
   justify-content: space-between;
@@ -336,7 +328,55 @@ hr {
 
 .box {
   height: 500px;
-  gap: 10px;
+  gap: 20px;
   background-color: rgb(255, 254, 254);
   margin: 1px;
+}
+
+#hero9 {
+  background: url(https://asset.swarovski.com/images/c_crop,g_xy_center,w_3409,h_1155,x_1705,y_1279/dpr_1.0,f_auto,q_auto,c_lfill,w_1449,h_600/swa-cms/2024_HOLIDAY_TIER_2_GIFTING_STILL_LIFE_3_72DPI_RGB/.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.main9 {
+  padding-top: 160px;
+  padding-left: 100px;
+}
+.main9 h1 {
+  font-size: 40px;
+  font-weight: 530;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main10 {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main10 div {
+  border: 1px solid black;
+}
+
+#hero11 {
+  background: url();
+  height: 100vh;
+}
+
+.main11 {
+  padding-top: 160px;
+  padding-left: 100px;
+}
+.main11 h1 {
+  font-size: 40px;
+  font-weight: 530;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main12 {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main12 div {
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
