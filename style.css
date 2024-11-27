@@ -188,8 +188,21 @@
   padding: 140px;
 }
 
+.loadmore {
+  height: 15vh;
+  background-color: rgb(219, 211, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadmore button {
+  background-color: black;
+  color: white;
+  padding: 10px 40px 10px 40px;
+}
+
 #hero6 {
-  height: 143vh;
+  height: 142vh;
   background-color: rgb(219, 211, 211);
 }
 
@@ -231,9 +244,9 @@
 }
 
 .join {
-  height: 60vh;
+  height: 59vh;
   margin-top: 70px;
-  background-color: skyblue;
+  background-color: rgb(108, 193, 226);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -303,10 +316,6 @@ hr {
   font-size: xx-large;
 }
 
-#hero8 {
-  border: 3px;
-  height: 500vh;
-}
 #hero8 .main8 {
   margin: 0px;
   display: grid;
@@ -314,6 +323,15 @@ hr {
 }
 #hero8 .main8 div {
   border: 1px solid black;
+}
+
+.box {
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+.ruppee {
+  font-size: 25px;
 }
 
 .sort {
@@ -358,7 +376,7 @@ hr {
 }
 
 #hero11 {
-  background: url();
+  background: url(https://www.justwatches.com/cdn/shop/articles/1.png?v=1732698425&width=1296) no-repeat center center/cover;
   height: 100vh;
 }
 
