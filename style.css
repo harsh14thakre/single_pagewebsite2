@@ -250,6 +250,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 48px;
 }
 
 .club {
@@ -328,7 +329,7 @@ hr {
 }
 
 .sort {
-  height: 7vh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -355,6 +356,11 @@ hr {
   border-top-right-radius: 15%;
 }
 
+.box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
 #hero9 {
   background: url(https://asset.swarovski.com/images/c_crop,g_xy_center,w_3409,h_1155,x_1705,y_1279/dpr_1.0,f_auto,q_auto,c_lfill,w_1449,h_600/swa-cms/2024_HOLIDAY_TIER_2_GIFTING_STILL_LIFE_3_72DPI_RGB/.jpg) no-repeat center center/cover;
   height: 100vh;
@@ -371,7 +377,7 @@ hr {
 }
 
 .main10 {
-  margin: 0px;
+  margin-bottom: 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -393,7 +399,6 @@ hr {
 }
 
 .main12 {
-  margin: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

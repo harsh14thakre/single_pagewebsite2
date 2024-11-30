@@ -1,0 +1,19 @@
+@media(max-width: 940px)
+{
+   
+   .navbar{ 
+     nav {
+        display: block;
+        ul{
+        position: fixed;
+        top: 80px;
+        left: 0px;
+        background-color: whitesmoke;
+        height: 100vh;
+        width: 100%;
+        display: block;
+    }
+}
+}
+   }
+

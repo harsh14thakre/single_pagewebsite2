@@ -283,6 +283,7 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 48px;
 
 }
 
@@ -369,7 +370,8 @@ hr{
 .ruppee{
     font-size: 25px;
 }
- .sort{ height: 7vh;
+ .sort{
+     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -384,10 +386,10 @@ hr{
     // justify-content: center;
     box-shadow: -6px -6px 15px 5px gray;
     margin-top: 2%;
+    
     .imagecontent{
         padding-left: 20px;
-        padding-top: 15px;
-        
+        padding-top: 15px; 
     }
     img{
         height: 250px;
@@ -396,7 +398,10 @@ hr{
         border-top-left-radius: 15%;
         border-top-right-radius: 15%;
 }
-
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
 }
 //  <!-------------------------------------- section=9start ---------------------------------------------->
  #hero9{
@@ -414,7 +419,7 @@ hr{
  }
 //  ------------------------------------------section=10start-------------------------------------------->
  .main10{
-    margin: 0px;
+    margin-bottom: 12px;
     display: flex;
     //  grid-template-columns: auto auto auto auto; 
     flex-wrap: wrap;
@@ -454,10 +459,15 @@ hr{
         font-family: Arial, Helvetica, sans-serif;
     }
  }
+ 
  .main12{
-    margin: 0px;
+    // margin: 0px;
     display: flex;
     //  grid-template-columns: auto auto auto auto; 
     flex-wrap: wrap;
+    // padding: 1.3%;
+
+    // width: 10%;
     justify-content: space-evenly;
  }
+ 
