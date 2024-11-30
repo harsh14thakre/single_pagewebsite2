@@ -17,6 +17,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                .icons{
+                    i:hover{
+                    transform: scale(1.5);
+                    transition: all 0.3s;
+                }
+            }
                 ul {
                     display: flex;
                     text-decoration: none;
@@ -27,6 +33,11 @@
                         color: black;
                         font-size: larger;
                     }
+                    a:hover{
+                        background-color: black;
+                        color: whitesmoke;
+                    }
+
                 }
             }
         }

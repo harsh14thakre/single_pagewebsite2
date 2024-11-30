@@ -21,6 +21,10 @@
   justify-content: space-between;
   align-items: center;
 }
+#heromain #header .navbar nav .icons i:hover {
+  transform: scale(1.5);
+  transition: all 0.3s;
+}
 #heromain #header .navbar nav ul {
   display: flex;
   text-decoration: none;
@@ -31,6 +35,10 @@
   text-decoration: none;
   color: black;
   font-size: larger;
+}
+#heromain #header .navbar nav ul a:hover {
+  background-color: black;
+  color: whitesmoke;
 }
 #heromain #header div p {
   height: 60px;
@@ -51,9 +59,13 @@
 }
 #hero1 a:hover {
   color: white;
+  transform: scale(1.5);
+  transition: all 0.3s;
 }
 #hero1 .btn:hover {
   background-color: black;
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
 
 .main1 h1 {
@@ -189,7 +201,9 @@
 }
 
 .loadmore {
-  height: 15vh;
+  margin-top: 30px;
+  padding-top: 60px;
+  height: 9vh;
   background-color: rgb(219, 211, 211);
   display: flex;
   justify-content: center;
@@ -198,22 +212,32 @@
 .loadmore button {
   background-color: black;
   color: white;
-  padding: 10px 40px 10px 40px;
+  padding: 15px 60px 15px 60px;
+}
+.loadmore button:hover {
+  border: 1px solid black;
+  background-color: gray;
+  transform: scale(1.05);
+  transition: all 0.3s;
 }
 
 #hero6 {
-  height: 142vh;
+  height: 125vh;
   background-color: rgb(219, 211, 211);
 }
 
 .main6 {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-left: 50px;
 }
 .main6 h1 {
-  padding-top: 100px;
+  padding-top: 40px;
   font-size: 50px;
   font-weight: 100;
+}
+.main6 .pd-services div i:hover {
+  transform: scale(1.5);
+  transition: all 0.3s;
 }
 
 .customer {
